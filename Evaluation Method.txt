@@ -1,0 +1,9 @@
+Minimum within cluster sum of distances was used to evaluate the best iteration over the 30 iterations.
+
+In the Method EvaluateClusters() We run KCluster() 
+1- Loop over the images and calculate the distance between them and their centers.
+2- sum all distance
+3- repeat 30 times
+4- compare the 30 distances
+5- take the minimum
+6- output the run with the minimum within cluster distance
